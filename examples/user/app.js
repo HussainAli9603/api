@@ -9,7 +9,7 @@ const fetchData = async () => {
                 <img src="${url}" alt="${name}"/>
                   <div class="info">
                     <h5>${name}</h5>
-                    <h5 class="price">{email}</h5>
+                    <h5 class="price">${email}</h5>
                   </div>
               </article>`
     }).join('')
